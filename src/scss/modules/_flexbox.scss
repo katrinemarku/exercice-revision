@@ -72,3 +72,20 @@
     align-items: flex-end;
   }
 }
+
+#flexbox-06 {
+  .box {
+    background-color: rgb(238, 208, 139);
+    border: solid 1px black;
+    font-size: 20px;
+    padding: 20px 40px;
+  }
+
+  .wrapper {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
