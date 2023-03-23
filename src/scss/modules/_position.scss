@@ -6,12 +6,40 @@
   display: block;
 }
 
-.box-relative {
-  background-color: bisque;
-  border: 1px dotted rgb(140, 132, 119);
-  width: 90px;
-  height: 90px;
+.relative {
   position: relative;
   top: -40px;
   left: 40px;
+}
+
+.relative2 {
+  position: relative;
+}
+
+.absolute {
+  background-color: rgb(140, 132, 119);
+  border: 1px dotted bisque;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+
+.absolute.b {
+  right: 0;
+  top: 0;
+}
+
+.absolute.c {
+  left: 5px;
+  bottom: 5px;
+}
+
+.absolute.b2 {
+  right: -10px;
+  top: -10px;
+}
+
+.absolute.c2 {
+  left: 40%;
+  bottom: -10px;
 }
